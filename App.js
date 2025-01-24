@@ -3,11 +3,19 @@ import { StyleSheet, Text, View } from 'react-native';
 
 export default function App() {
   return (
+    /*
     <View style={styles.container}>
       <Text style={textStyles.container}>Hello! I made a RN APP !</Text>
       <Text style={styles.text}>Hello! I made a RN APP !</Text>
       <Text style={{ color: "blue", fontSize: 30 }}>Hello! I made a RN APP !</Text>
       <StatusBar style="auto" />
+    </View>
+    */
+
+    <View style={{ flex: 1 }}>
+      <View style={{ flex: 1, backgroundColor: "tomato" }}></View>
+      <View style={{ flex: 1.2, backgroundColor: "teal" }}></View>
+      <View style={{ flex: 1, backgroundColor: "orange" }}></View>
     </View>
   );
 }
