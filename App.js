@@ -6,11 +6,13 @@ export default function App() {
     <View style={styles.container}>
       <Text style={textStyles.container}>Hello! I made a RN APP !</Text>
       <Text style={styles.text}>Hello! I made a RN APP !</Text>
+      <Text style={{ color: "blue", fontSize: 30 }}>Hello! I made a RN APP !</Text>
       <StatusBar style="auto" />
     </View>
   );
 }
 
+// 다양한 스타일 적용법
 const styles = StyleSheet.create({
   container: {
     flex: 1,
